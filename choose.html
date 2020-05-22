@@ -976,12 +976,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				   <input name="uid" placeholder="請輸入手機號碼" type="text" maxlength="10">
 				   <input name="coupon" placeholder="請輸入票券號碼" type="text" maxlength="8">
 				 </div>
-				 <div class="coupon_comfirm_btn">
-		 			<h1>確認</h1>
-		 		</div>
+				 <button type="button" id="coupon_comfirm_btn"><h1 id="coupon_comfirm_string">確認</h1></button>
 		 		<div class="coupon tips">
-		 			<p>*票券號碼區分大小寫，輸入完成後請按確認鍵</p>
+		 			<p id="coupon_tips_string">*票券號碼區分大小寫，輸入完成後請按確認鍵</p>
 		 		</div>
+		 		<div style="clear: both"></div>
 		 		</form>
 		 	</div>
 	 		<div style="clear: both"></div>
@@ -1010,12 +1009,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						 	</div>
 						 </div>
 					 </div>
-					 <div class="member_comfirm_btn">
-			 			<h1>確認</h1>
-			 		</div>
+					 <button type="button" id="member_comfirm_btn"><h1 id="member_comfirm_string">確認</h1></button>
 			 		<div class="member tips">
-			 			<p>會員點數1點可折抵1元，輸入完成後請按確認鍵</p>
+			 			<p id="member_tips_string">*會員點數1點可折抵1元，輸入完成後請按確認鍵</p>
 			 		</div>
+			 		<div style="clear: both"></div>
 		 		</form>
 		 	</div>
 	 		<div style="clear: both"></div>
@@ -1082,7 +1080,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      }
 	 
 	 $(function() {
-
 		
 		//折扣碼輸入控制
 		$("#btn_coupon").click(function(){
@@ -1110,7 +1107,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			
 		});
 
-		
+		$("#coupon_comfirm_btn").click(function(){
+			var str = document.getElementById('coupon_comfirm_string').innerHTML;
+
+			var str_tips = document.getElementById('coupon_tips_string').innerHTML;
+
+			var res = str.replace("確認", "取消");
+			var res_tips = str_tips.replace("*票券號碼區分大小寫，輸入完成後請按確認鍵", "*請注意!活動券一經使用無法再次使用及復原");
+			document.getElementById("coupon_comfirm_string").innerHTML = res;
+			document.getElementById("coupon_tips_string").innerHTML = res_tips;
+		});
+
+		$("#member_comfirm_btn").click(function(){
+			var str = document.getElementById('member_comfirm_string').innerHTML;
+
+			var str_tips = document.getElementById('member_tips_string').innerHTML;
+
+			var res = str.replace("確認", "取消");
+			var res_tips = str_tips.replace("*會員點數1點可折抵1元，輸入完成後請按確認鍵", "*請注意!會員點數一經使用無法再次使用及復原");
+			document.getElementById("member_comfirm_string").innerHTML = res;
+			document.getElementById("member_tips_string").innerHTML = res_tips;
+		});
 
 		if ($("#cartbox").size() > 0) {
 			$('html,body').animate({

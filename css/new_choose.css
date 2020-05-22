@@ -146,7 +146,7 @@ top: 0px;
     padding: 10px 10px;
     font-weight: 400;
 }
-.coupon_comfirm_btn{
+#coupon_comfirm_btn{
     float: left;
     position: relative;
     margin: 0 0 0 27px;
@@ -214,7 +214,7 @@ top: 0px;
   border:1px solid #8F6D55;
   padding-left: 10px;
 }
-.member_comfirm_btn{
+#member_comfirm_btn{
     float: left;
     position: relative;
     margin: 0 0 0 27px;
@@ -225,7 +225,9 @@ top: 0px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-
+.input_area button{
+  border:0;
+}
 @media screen and (max-width: 768px){
 .list-remind02 {
     width: 200%;
@@ -344,7 +346,7 @@ top: 0px;
   .list-ordercon .list-ordercost {
     font-size: 1.5rem;
   }
-  .coupon_comfirm_btn {
+  #coupon_comfirm_btn {
     float: left;
     position: relative;
     margin: 0 0 0 27px;
@@ -387,7 +389,7 @@ top: 0px;
     border-right:  0px solid #8F6D55;
     padding-left: 10px;
   }
-  .member_comfirm_btn {
+  #member_comfirm_btn {
     float: left;
     position: relative;
     margin: 0 0 0 27px;
