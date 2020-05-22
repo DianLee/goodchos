@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>商品選購 -050432b3f26f66ba66419ca645ea8dca</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Animate.css -->
+    <link rel="stylesheet" type="text/css"  href="/theme/frontend/css/animate.css">
+    <!-- wow jquery -->
+ 	<script src="/theme/frontend/js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+
+    <!-- Retina@2x jq -->   
+    <!--<script type="text/javascript" src="/theme/frontend/js/retina.min.js"></script>-->
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css"  href="/theme/frontend/css/style.css">
+    <!-- reset -->
+    <link rel="stylesheet" type="text/css"  href="/theme/frontend/css/normalize.css">
+
+    <!-- pc menu -->
+    <script type="text/javascript" src="/theme/frontend/js/pcmenu.js"></script>
+	<script type="text/javascript" src="/theme/frontend/js/jquery.sticky.js"></script>
+
+	<!-- slider -->
+	<link rel="stylesheet" href="/theme/frontend/css/slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/theme/frontend/css/flexslider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/theme/frontend/css/style_fix.css" type="text/css" media="screen" />
+	<script src="/theme/frontend/js/modernizr.js"></script>
+	<script defer src="/theme/frontend/js/jquery.flexslider.js"></script>
+	
+	 <!--  rwd fix-->
+    <link rel="stylesheet" href="https://www.goodchos.com.tw/theme/frontend/css/responsive/rwd_main.css">
+    <link rel="stylesheet" type="text/css" href="https://www.goodchos.com.tw/theme/frontend/css/style20200305.css">
+    <link rel="stylesheet" type="text/css" href="https://www.goodchos.com.tw/theme/frontend/css/style20200305_responsive.css">
+    <link rel="stylesheet" type="text/css" href="https://www.goodchos.com.tw/theme/frontend/css/swiper.min.css">
+    <link rel="stylesheet" type="text/css" href="https://www.goodchos.com.tw/theme/frontend/css/all.css"> 
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PFCWQXL');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body>
+ 
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFCWQXL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="navbar">
+  <div class="navbar_container">
+	<div class="navbar_rightCtrl">
+	  <ul class="navbar_linkList">
+		<li>
+		  <form id="search" action="https://www.goodchos.com.tw/search" method="get" class="search-icon-con">
+			<input id="s" name="q" type="text" placeholder="想要查什麼">
+		  </form><a class="navbar_iconLink navbar_searchBtn navbar--search"></a>
+		</li>
+		<li><a href="https://www.facebook.com/goodchos/?fref=ts" class="navbar_iconLink navbar--fb"></a></li>
+		<li><a href="https://lin.ee/8OmJghA" class="navbar_iconLink navbar--line"></a></li>
+	  </ul>
+	  <ul class="navbar_linkList">
+		<li><a href="https://www.goodchos.com.tw/inquiry" class="navbar_orderSearch">訂單查詢</a></li>
+	  </ul>
+	</div>
+  </div>
+</div>
+<div id="logo">
+  <div class="logo_container">
+	<button class="logo_showMenuBtn"></button><a href="https://www.goodchos.com.tw/"></a>
+	<ul class="logo_linkList">
+	  <li><a href="https://www.goodchos.com.tw/inquiry">訂單查詢</a></li>
+	  <li class="logo_linkList_user">
+							<a class="navbar_login" href="https://www.goodchos.com.tw/api/GC_Login/login?c_rf=shopping/choose/theme/frontend/img/icon/Plus.svg">登入會員</a>
+				  </li>
+	  <li>
+		<form id="search" action="https://www.goodchos.com.tw/search" method="get" class="search-icon-con">
+		  <input id="s" name="q" type="text" placeholder="想要查什麼">
+		</form><a class="navbar_iconLink navbar_searchBtn navbar--search"></a>
+	  </li>
+	</ul>
+  </div>
+</div>
+
+
+<div id="pcmenu-sticky-wrapper" style="height: 46px;" class="sticky-wrapper">
+  <div class="pcmenu__container">
+	<div class="menuMHeader"><a href="https://www.goodchos.com.tw/" class="menuMHeader__logo"> </a>
+	  <button class="menuMHeader__close"></button>
+	</div>
+	<ul class="headerMenu">
+	  <li class="headerMenu__item"><a href="#" class="headerMenu__link">門市通路<img src="theme/frontend/img/icon/Plus.svg" alt=""></a>
+		<ul class="headerMenu__subMenu">
+						
+				<li class="headerMenu__subMenu__item"><a href="https://www.goodchos.com.tw/store/infomation/1" class="headerMenu__subMenu__link">信義店</a></li>
+						
+				<li class="headerMenu__subMenu__item"><a href="https://www.goodchos.com.tw/store/infomation/3" class="headerMenu__subMenu__link">圓山店</a></li>
+						
+				<li class="headerMenu__subMenu__item"><a href="https://www.goodchos.com.tw/store/infomation/4" class="headerMenu__subMenu__link">芝山店</a></li>
+						
+				<li class="headerMenu__subMenu__item"><a href="https://www.goodchos.com.tw/store/infomation/6" class="headerMenu__subMenu__link">微風南京店</a></li>
+						
+				<li class="headerMenu__subMenu__item"><a href="https://www.goodchos.com.tw/store/infomation/7" class="headerMenu__subMenu__link">台中新光店</a></li>
+						
+				<li class="headerMenu__subMenu__item"><a href="https://www.goodchos.com.tw/store/infomation/8" class="headerMenu__subMenu__link">台北時代店</a></li>
+						
+				<li class="headerMenu__subMenu__item"><a href="https://www.goodchos.com.tw/store/infomation/9" class="headerMenu__subMenu__link">台北京站店</a></li>
+						
+				<li class="headerMenu__subMenu__item"><a href="https://www.goodchos.com.tw/store/infomation/10" class="headerMenu__subMenu__link">台北松山店</a></li>
+					</ul>
+	  </li>
+	  <li class="headerMenu__item"><a href="https://www.goodchos.com.tw/hotnews" class="headerMenu__link">新品資訊</a></li>
+	  <li class="headerMenu__item"><a href="#" class="headerMenu__link"><span class="d-block d-md-none">貝果訂購</span><span class="d-none d-md-block">美味貝果</span><img src="https://www.goodchos.com.tw/theme/frontend/img/icon/Plus.svg" alt=""></a>
+		<ul class="headerMenu__subMenu headerMenu__subMenu--order">
+		  <li class="headerMenu__subMenu__item"><a href="https://www.goodchos.com.tw/article/56" class="headerMenu__subMenu__link">美味堅持</a></li>
+		  <li class="headerMenu__subMenu__item"><a href="https://www.goodchos.com.tw/article/29" class="headerMenu__subMenu__link">口味一覽</a></li>
+		  <li class="headerMenu__subMenu__item d-block d-md-none"><a href="https://www.goodchos.com.tw/shop" class="headerMenu__subMenu__link">開始挑選</a></li>
+		  <li class="headerMenu__subMenu__item d-block d-md-none"><a href="https://www.goodchos.com.tw/inquiry" class="headerMenu__subMenu__link">訂單查詢</a></li>
+		  <li class="headerMenu__subMenu__item"><a href="https://www.goodchos.com.tw/article/34" class="headerMenu__subMenu__link">常見 Q & A</a></li>
+		</ul>
+	  </li>
+	  <li class="headerMenu__item"><a href="https://www.goodchos.com.tw/group" class="headerMenu__link">在地選品</a></li>
+	  <li class="headerMenu__item"><a href="https://www.goodchos.com.tw/vender" class="headerMenu__link">環境友善</a></li>
+	  <li class="headerMenu__item"><a href="https://www.goodchos.com.tw/simplemarket" class="headerMenu__link">活動展演</a></li>
+	  <li class="headerMenu__item d-none d-md-block"><a href="https://www.goodchos.com.tw/shop" class="headerMenu__link text-primaryGreen">線上訂購</a></li>
+	</ul>
+	<div class="menuContactUs">
+	  <div class="menuContactUs__btnGroup"><a href="https://www.goodchos.com.tw/inquiry" title="title" style="width: 100%;" class="menuContactUs__btnGroup__link menuContactUs__btnGroup__link--outline">訂單查詢 </a>
+	  </div>
+	  <div class="menuContactUs__iconLink"><span>追蹤我們</span>
+		<div class="menuContactUs__linkList"><a href="https://www.facebook.com/goodchos/?fref=ts"><img src="https://www.goodchos.com.tw/theme/frontend/img/icon/Facebook_contact.png" alt=""></a><a href="#"><img src="https://www.goodchos.com.tw/theme/frontend/img/icon/Line_contact.png" alt=""></a></div>
+	  </div>
+	</div>
+  </div>
+</div>
+<div class="content ">
+<!-- step-menu ==================================== -->
+	<div class="step-menu">
+		<img src="/theme/frontend/img/goods-menu01.png">
+	</div>
+
+<!-- container ==================================== -->
+<div class="container">
+
+	<div class="choose-remain01">
+		<p><span style="font-size:20px"><strong>近期訂單較多，出貨期間改為5-7個工作天，感謝您的耐心等待！</strong></span><br />
+<br />
+<span style="font-size:16px">∵   於您所欲挑選款式欄位，以下拉選單或是輸入方式填數欲購買數量。</span></p>
+
+<p><span style="font-size:16px">∵   皆挑選完畢後，點選下方「計算金額」按鈕，系統會自動幫您計算購買金額。</span></p>
+
+<p><span style="font-size:16px">∵   如欲修改款式或數量，可於訂單明細修改，並再次點選「計算金額」按鈕進行計算。</span></p>
+
+<p><span style="font-size:16px">∵   如您有折扣碼，請輸入「手機號碼」及「折扣碼」，完成後點選「輸入折扣碼」按鈕。</span></p>
+
+<p><span style="font-size:16px">∵   確認訂購明細及金額無誤後，點選「下一步：資料填寫」。</span></p>
+	</div>
+
+
+	<div class="goods-title" data-content="選擇貝果"><img src="/theme/frontend/img/pick-01.png" ></div>
+	<div class="goods-con">
+				<div class="goods-subcon">
+           			<div class="goods-icon">全新改款</div>
+                        
+			<img src="https://www.goodchos.com.tw/upload/shop/6807b2b2f88e159857213e71a379b51a.png">
+            			<dl>
+				<dt>原味小麥</dt>
+				<dd>Plain</dd>
+			</dl>
+			
+            			<img src="/theme/frontend/img/buy-icon01.png" width="60" class="vegetarian">
+            			
+            			<span><!--$35--></span>
+			<span class="discount-price">$35</span>
+						
+			
+			<p>使用台灣本產小麥搭配特選麥香純淨的進口麵粉，調製出甘醇香甜又具風土滋味的黃金比例。</p>
+			<form>
+				<a class="goods-num" ></a>
+				<input type="tel" pattern="[0-9]*" class="input_prod" value="" name="product-59" data="59" placeholder="輸入或下拉選取" maxlength=3 />
+				<span><div class="icon-01"></div>個</span>
+				<ul class="goods-numcon">
+										<li><a >1</a></li>
+										<li><a >2</a></li>
+										<li><a >3</a></li>
+										<li><a >4</a></li>
+										<li><a >5</a></li>
+										<li><a >6</a></li>
+										<li><a >7</a></li>
+										<li><a >8</a></li>
+										<li><a >9</a></li>
+										<li><a >10</a></li>
+										<li><a >11</a></li>
+										<li><a >12</a></li>
+										<li><a >13</a></li>
+										<li><a >14</a></li>
+										<li><a >15</a></li>
+										<li><a >16</a></li>
+										<li><a >17</a></li>
+										<li><a >18</a></li>
+										<li><a >19</a></li>
+										<li><a >20</a></li>
+					
+				</ul>
+			</form>
+		</div>
+      		<div class="goods-subcon">
+                       
+			<img src="https://www.goodchos.com.tw/upload/shop/0cf7bc4f55659dbf69688a22433cae06.png">
+            			<dl>
+				<dt>五穀米香</dt>
+				<dd>Five Grains Rice</dd>
+			</dl>
+			
+            			<img src="/theme/frontend/img/buy-icon01.png" width="60" class="vegetarian">
+            			
+            			<span><!--$35--></span>
+			<span class="discount-price">$35</span>
+						
+			
+			<p>將友善種植的石虎米飯、國產五穀米與小麥充分調和，讓麥香甘醇中更多了口感與咬勁，越嚼越香甜！</p>
+			<form>
+				<a class="goods-num" ></a>
+				<input type="tel" pattern="[0-9]*" class="input_prod" value="" name="product-57" data="57" placeholder="輸入或下拉選取" maxlength=3 />
+				<span><div class="icon-01"></div>個</span>
+				<ul class="goods-numcon">
+										<li><a >1</a></li>
+										<li><a >2</a></li>
+										<li><a >3</a></li>
+										<li><a >4</a></li>
+										<li><a >5</a></li>
+										<li><a >6</a></li>
+										<li><a >7</a></li>
+										<li><a >8</a></li>
+										<li><a >9</a></li>
+										<li><a >10</a></li>
+										<li><a >11</a></li>
+										<li><a >12</a></li>
+										<li><a >13</a></li>
+										<li><a >14</a></li>
+										<li><a >15</a></li>
+										<li><a >16</a></li>
+										<li><a >17</a></li>
+										<li><a >18</a></li>
+										<li><a >19</a></li>
+										<li><a >20</a></li>
+					
+				</ul>
+			</form>
+		</div>
+      		<div class="goods-subcon">
+                       
+			<img src="https://www.goodchos.com.tw/upload/shop/4cf8103cadbb3d30542d1d5aa22b5295.png">
+            			<dl>
+				<dt>四季春</dt>
+				<dd>Taiwanese Oolong</dd>
+			</dl>
+			
+            			<img src="/theme/frontend/img/buy-icon01.png" width="60" class="vegetarian">
+            			
+            			<span><!--$40--></span>
+			<span class="discount-price">$40</span>
+						
+			
+			<p>將東台灣帶著淡雅梔子花香的原片茶葉細磨拌入麵團，尾韻甘甜帶有烏龍韻味及清新茶香。</p>
+			<form>
+				<a class="goods-num" ></a>
+				<input type="tel" pattern="[0-9]*" class="input_prod" value="" name="product-9" data="9" placeholder="輸入或下拉選取" maxlength=3 />
+				<span><div class="icon-01"></div>個</span>
+				<ul class="goods-numcon">
+										<li><a >1</a></li>
+										<li><a >2</a></li>
+										<li><a >3</a></li>
+										<li><a >4</a></li>
+										<li><a >5</a></li>
+										<li><a >6</a></li>
+										<li><a >7</a></li>
+										<li><a >8</a></li>
+										<li><a >9</a></li>
+										<li><a >10</a></li>
+										<li><a >11</a></li>
+										<li><a >12</a></li>
+										<li><a >13</a></li>
+										<li><a >14</a></li>
+										<li><a >15</a></li>
+										<li><a >16</a></li>
+										<li><a >17</a></li>
+										<li><a >18</a></li>
+										<li><a >19</a></li>
+										<li><a >20</a></li>
+					
+				</ul>
+			</form>
+		</div>
+      		<div class="goods-subcon">
+                       
+			<img src="https://www.goodchos.com.tw/upload/shop/02286d91571ecdba748fd564604a283b.png">
+            			<dl>
+				<dt>野生桑葚</dt>
+				<dd>Wild Mulberry</dd>
+			</dl>
+			
+            			<img src="/theme/frontend/img/buy-icon02.png" width="60" class="vegetarian">
+            			
+            			<span><!--$40--></span>
+			<span class="discount-price">$40</span>
+						
+			
+			<p>吃得到來自南台灣的野生桑葚果粒，天然酸甜滋味是足以與藍莓一較高下的在地莓果氣息。</p>
+			<form>
+				<a class="goods-num" ></a>
+				<input type="tel" pattern="[0-9]*" class="input_prod" value="" name="product-8" data="8" placeholder="輸入或下拉選取" maxlength=3 />
+				<span><div class="icon-01"></div>個</span>
+				<ul class="goods-numcon">
+										<li><a >1</a></li>
+										<li><a >2</a></li>
+										<li><a >3</a></li>
+										<li><a >4</a></li>
+										<li><a >5</a></li>
+										<li><a >6</a></li>
+										<li><a >7</a></li>
+										<li><a >8</a></li>
+										<li><a >9</a></li>
+										<li><a >10</a></li>
+										<li><a >11</a></li>
+										<li><a >12</a></li>
+										<li><a >13</a></li>
+										<li><a >14</a></li>
+										<li><a >15</a></li>
+										<li><a >16</a></li>
+										<li><a >17</a></li>
+										<li><a >18</a></li>
+										<li><a >19</a></li>
+										<li><a >20</a></li>
+					
+				</ul>
+			</form>
+		</div>
+      		<div class="goods-subcon">
+           			<div class="goods-icon">全新改款</div>
+                        
+			<img src="https://www.goodchos.com.tw/upload/shop/2fb87794d5672cd8c4d00a5f28ab7ca9.png">
+            			<dl>
+				<dt>塔香番茄</dt>
+				<dd>Tomato with Basil</dd>
+			</dl>
+			
+            			<img src="/theme/frontend/img/buy-icon01.png" width="60" class="vegetarian">
+            			
+            			<span><!--$55--></span>
+			<span class="discount-price">$55</span>
+						
+			
+			<p>將自製的聖女番茄乾與九層塔葉揉入番茄風味的麵團中，讓香草與果物相互交疊出獨特的鹹甜滋味。</p>
+			<form>
+				<a class="goods-num" ></a>
+				<input type="tel" pattern="[0-9]*" class="input_prod" value="" name="product-60" data="60" placeholder="輸入或下拉選取" maxlength=3 />
+				<span><div class="icon-01"></div>個</span>
+				<ul class="goods-numcon">
+										<li><a >1</a></li>
+										<li><a >2</a></li>
+										<li><a >3</a></li>
+										<li><a >4</a></li>
+										<li><a >5</a></li>
+										<li><a >6</a></li>
+										<li><a >7</a></li>
+										<li><a >8</a></li>
+										<li><a >9</a></li>
+										<li><a >10</a></li>
+										<li><a >11</a></li>
+										<li><a >12</a></li>
+										<li><a >13</a></li>
+										<li><a >14</a></li>
+										<li><a >15</a></li>
+										<li><a >16</a></li>
+										<li><a >17</a></li>
+										<li><a >18</a></li>
+										<li><a >19</a></li>
+										<li><a >20</a></li>
+					
+				</ul>
+			</form>
+		</div>
+      		<div class="goods-subcon">
+                       
+			<img src="https://www.goodchos.com.tw/upload/shop/4ded8fc01015d3ea6b647f4cfb34e8a5.png">
+            			<dl>
+				<dt>芋頭鹹蛋黃</dt>
+				<dd>Taro with Salted Egg Yolk</dd>
+			</dl>
+			
+            			<img src="/theme/frontend/img/buy-icon04.png" width="60" class="vegetarian">
+            			
+            			<span><!--$60--></span>
+			<span class="discount-price">$60</span>
+						
+			
+			<p>使用台灣本產的芋頭製成香甜芋泥，再夾入手工鹹蛋黃丁， 厚工重現難以忘懷的台灣古早味。</p>
+			<form>
+				<a class="goods-num" ></a>
+				<input type="tel" pattern="[0-9]*" class="input_prod" value="" name="product-19" data="19" placeholder="輸入或下拉選取" maxlength=3 />
+				<span><div class="icon-01"></div>個</span>
+				<ul class="goods-numcon">
+										<li><a >1</a></li>
+										<li><a >2</a></li>
+										<li><a >3</a></li>
+										<li><a >4</a></li>
+										<li><a >5</a></li>
+										<li><a >6</a></li>
+										<li><a >7</a></li>
+										<li><a >8</a></li>
+										<li><a >9</a></li>
+										<li><a >10</a></li>
+										<li><a >11</a></li>
+										<li><a >12</a></li>
+										<li><a >13</a></li>
+										<li><a >14</a></li>
+										<li><a >15</a></li>
+										<li><a >16</a></li>
+										<li><a >17</a></li>
+										<li><a >18</a></li>
+										<li><a >19</a></li>
+										<li><a >20</a></li>
+					
+				</ul>
+			</form>
+		</div>
+      		<div class="goods-subcon">
+                       
+			<img src="https://www.goodchos.com.tw/upload/shop/ea4b4ed7c2619bde8976dd319c1d7a87.png">
+            			<dl>
+				<dt>桂花紫薯</dt>
+				<dd>Purple potato & Osmanthus</dd>
+			</dl>
+			
+            			<img src="/theme/frontend/img/buy-icon03.png" width="60" class="vegetarian">
+            			
+            			<span><!--$55--></span>
+			<span class="discount-price">$55</span>
+						
+			
+			<p>富含營養的台灣紫薯內餡，帶著高雅的桂花清香，花香與紫薯獨特香氣交融，讓人愛不釋口。</p>
+			<form>
+				<a class="goods-num" ></a>
+				<input type="tel" pattern="[0-9]*" class="input_prod" value="" name="product-27" data="27" placeholder="輸入或下拉選取" maxlength=3 />
+				<span><div class="icon-01"></div>個</span>
+				<ul class="goods-numcon">
+										<li><a >1</a></li>
+										<li><a >2</a></li>
+										<li><a >3</a></li>
+										<li><a >4</a></li>
+										<li><a >5</a></li>
+										<li><a >6</a></li>
+										<li><a >7</a></li>
+										<li><a >8</a></li>
+										<li><a >9</a></li>
+										<li><a >10</a></li>
+										<li><a >11</a></li>
+										<li><a >12</a></li>
+										<li><a >13</a></li>
+										<li><a >14</a></li>
+										<li><a >15</a></li>
+										<li><a >16</a></li>
+										<li><a >17</a></li>
+										<li><a >18</a></li>
+										<li><a >19</a></li>
+										<li><a >20</a></li>
+					
+				</ul>
+			</form>
+		</div>
+      		<div class="goods-subcon">
+           			<div class="goods-icon">全新改款</div>
+                        
+			<img src="https://www.goodchos.com.tw/upload/shop/1e5aa763fe1a897bc24e6da786dd2cec.png">
+            			<dl>
+				<dt>花生可可</dt>
+				<dd>Peanut Butter & Chocolate</dd>
+			</dl>
+			
+            			<img src="/theme/frontend/img/buy-icon03.png" width="60" class="vegetarian">
+            			
+            			<span><!--$60--></span>
+			<span class="discount-price">$60</span>
+						
+			
+			<p>選用本產石磨花生醬與香濃可可醬搭配上濃郁巧克力豆，是熟悉卻又層次豐富的熱帶巧克力風情。</p>
+			<form>
+				<a class="goods-num" ></a>
+				<input type="tel" pattern="[0-9]*" class="input_prod" value="" name="product-61" data="61" placeholder="輸入或下拉選取" maxlength=3 />
+				<span><div class="icon-01"></div>個</span>
+				<ul class="goods-numcon">
+										<li><a >1</a></li>
+										<li><a >2</a></li>
+										<li><a >3</a></li>
+										<li><a >4</a></li>
+										<li><a >5</a></li>
+										<li><a >6</a></li>
+										<li><a >7</a></li>
+										<li><a >8</a></li>
+										<li><a >9</a></li>
+										<li><a >10</a></li>
+										<li><a >11</a></li>
+										<li><a >12</a></li>
+										<li><a >13</a></li>
+										<li><a >14</a></li>
+										<li><a >15</a></li>
+										<li><a >16</a></li>
+										<li><a >17</a></li>
+										<li><a >18</a></li>
+										<li><a >19</a></li>
+										<li><a >20</a></li>
+					
+				</ul>
+			</form>
+		</div>
+      		<div class="goods-subcon">
+           			<div class="goods-icon">全新改款</div>
+                        
+			<img src="https://www.goodchos.com.tw/upload/shop/d7bdfad24ef5fe4abcbd209332f4ce02.png">
+            			<dl>
+				<dt>草莓奶香</dt>
+				<dd>Strawberry with C-Cheese</dd>
+			</dl>
+			
+            			<img src="/theme/frontend/img/buy-icon03.png" width="60" class="vegetarian">
+            			
+            			<span><!--$65--></span>
+			<span class="discount-price">$65</span>
+						
+			
+			<p>使用大湖無添加草莓乾，拌入豐厚的香甜奶油起司內餡中，濃郁奶香襯托出草莓的酸甜美味。</p>
+			<form>
+				<a class="goods-num" ></a>
+				<input type="tel" pattern="[0-9]*" class="input_prod" value="" name="product-62" data="62" placeholder="輸入或下拉選取" maxlength=3 />
+				<span><div class="icon-01"></div>個</span>
+				<ul class="goods-numcon">
+										<li><a >1</a></li>
+										<li><a >2</a></li>
+										<li><a >3</a></li>
+										<li><a >4</a></li>
+										<li><a >5</a></li>
+										<li><a >6</a></li>
+										<li><a >7</a></li>
+										<li><a >8</a></li>
+										<li><a >9</a></li>
+										<li><a >10</a></li>
+										<li><a >11</a></li>
+										<li><a >12</a></li>
+										<li><a >13</a></li>
+										<li><a >14</a></li>
+										<li><a >15</a></li>
+										<li><a >16</a></li>
+										<li><a >17</a></li>
+										<li><a >18</a></li>
+										<li><a >19</a></li>
+										<li><a >20</a></li>
+					
+				</ul>
+			</form>
+		</div>
+      		<div class="goods-subcon">
+                       
+			<img src="https://www.goodchos.com.tw/upload/shop/a5c6e001a77ef7f6feb220ed70a4b58f.png">
+            			<dl>
+				<dt>地瓜乳酪</dt>
+				<dd>Cheese & Sweet Potato</dd>
+			</dl>
+			
+            			<img src="/theme/frontend/img/buy-icon03.png" width="60" class="vegetarian">
+            			
+            			<span><!--$50--></span>
+			<span class="discount-price">$50</span>
+						
+			
+			<p>將充滿這塊土地甘甜的紅地瓜，帶皮拌入乳酪中，柔軟綿密的口感裡盡是台灣人熟悉的純樸美味。</p>
+			<form>
+				<a class="goods-num" ></a>
+				<input type="tel" pattern="[0-9]*" class="input_prod" value="" name="product-12" data="12" placeholder="輸入或下拉選取" maxlength=3 />
+				<span><div class="icon-01"></div>個</span>
+				<ul class="goods-numcon">
+										<li><a >1</a></li>
+										<li><a >2</a></li>
+										<li><a >3</a></li>
+										<li><a >4</a></li>
+										<li><a >5</a></li>
+										<li><a >6</a></li>
+										<li><a >7</a></li>
+										<li><a >8</a></li>
+										<li><a >9</a></li>
+										<li><a >10</a></li>
+										<li><a >11</a></li>
+										<li><a >12</a></li>
+										<li><a >13</a></li>
+										<li><a >14</a></li>
+										<li><a >15</a></li>
+										<li><a >16</a></li>
+										<li><a >17</a></li>
+										<li><a >18</a></li>
+										<li><a >19</a></li>
+										<li><a >20</a></li>
+					
+				</ul>
+			</form>
+		</div>
+      		<div class="goods-subcon">
+                       
+			<img src="https://www.goodchos.com.tw/upload/shop/619ea7c0146ae947e19d7a0ed47738c1.png">
+            			<dl>
+				<dt>紅豆牛奶</dt>
+				<dd>Red Bean Milk</dd>
+			</dl>
+			
+            			<img src="/theme/frontend/img/buy-icon03.png" width="60" class="vegetarian">
+            			
+            			<span><!--$50--></span>
+			<span class="discount-price">$50</span>
+						
+			
+			<p>將友善種植的老鷹紅豆與純鮮奶煉乳融合成甘甜的紅豆牛奶內餡，豆香與奶韻交融出樸實美味。</p>
+			<form>
+				<a class="goods-num" ></a>
+				<input type="tel" pattern="[0-9]*" class="input_prod" value="" name="product-56" data="56" placeholder="輸入或下拉選取" maxlength=3 />
+				<span><div class="icon-01"></div>個</span>
+				<ul class="goods-numcon">
+										<li><a >1</a></li>
+										<li><a >2</a></li>
+										<li><a >3</a></li>
+										<li><a >4</a></li>
+										<li><a >5</a></li>
+										<li><a >6</a></li>
+										<li><a >7</a></li>
+										<li><a >8</a></li>
+										<li><a >9</a></li>
+										<li><a >10</a></li>
+										<li><a >11</a></li>
+										<li><a >12</a></li>
+										<li><a >13</a></li>
+										<li><a >14</a></li>
+										<li><a >15</a></li>
+										<li><a >16</a></li>
+										<li><a >17</a></li>
+										<li><a >18</a></li>
+										<li><a >19</a></li>
+										<li><a >20</a></li>
+					
+				</ul>
+			</form>
+		</div>
+      		<div class="goods-subcon">
+           			<div class="goods-icon">全新改款</div>
+                        
+			<img src="https://www.goodchos.com.tw/upload/shop/45203f14d177d2a5b3d768a812f7f43d.png">
+            			<dl>
+				<dt>經典乳酪</dt>
+				<dd>Cheese with  Spice & Herb</dd>
+			</dl>
+			
+            			<img src="/theme/frontend/img/buy-icon03.png" width="60" class="vegetarian">
+            			
+            			<span><!--$55--></span>
+			<span class="discount-price">$55</span>
+						
+			
+			<p>以帶有檸檬和柑橘香氣的本土馬告搭配香濃奶油乳酪，多層次的鹹味與起司交融出經典美味。</p>
+			<form>
+				<a class="goods-num" ></a>
+				<input type="tel" pattern="[0-9]*" class="input_prod" value="" name="product-63" data="63" placeholder="輸入或下拉選取" maxlength=3 />
+				<span><div class="icon-01"></div>個</span>
+				<ul class="goods-numcon">
+										<li><a >1</a></li>
+										<li><a >2</a></li>
+										<li><a >3</a></li>
+										<li><a >4</a></li>
+										<li><a >5</a></li>
+										<li><a >6</a></li>
+										<li><a >7</a></li>
+										<li><a >8</a></li>
+										<li><a >9</a></li>
+										<li><a >10</a></li>
+										<li><a >11</a></li>
+										<li><a >12</a></li>
+										<li><a >13</a></li>
+										<li><a >14</a></li>
+										<li><a >15</a></li>
+										<li><a >16</a></li>
+										<li><a >17</a></li>
+										<li><a >18</a></li>
+										<li><a >19</a></li>
+										<li><a >20</a></li>
+					
+				</ul>
+			</form>
+		</div>
+      		<div class="goods-subcon">
+           			<div class="goods-icon">全新改款</div>
+                        
+			<img src="https://www.goodchos.com.tw/upload/shop/29ee9c3130ce556dcb05e370d6007db1.png">
+            			<dl>
+				<dt>起司三重奏</dt>
+				<dd>Cheese Trio</dd>
+			</dl>
+			
+            			<img src="/theme/frontend/img/buy-icon03.png" width="60" class="vegetarian">
+            			
+            			<span><!--$65--></span>
+			<span class="discount-price">$65</span>
+						
+			
+			<p>選用國產的莫札瑞拉起司，搭配高達起司絲與高融點起司丁，三種風味交融出超濃郁的起司交響曲。</p>
+			<form>
+				<a class="goods-num" ></a>
+				<input type="tel" pattern="[0-9]*" class="input_prod" value="" name="product-64" data="64" placeholder="輸入或下拉選取" maxlength=3 />
+				<span><div class="icon-01"></div>個</span>
+				<ul class="goods-numcon">
+										<li><a >1</a></li>
+										<li><a >2</a></li>
+										<li><a >3</a></li>
+										<li><a >4</a></li>
+										<li><a >5</a></li>
+										<li><a >6</a></li>
+										<li><a >7</a></li>
+										<li><a >8</a></li>
+										<li><a >9</a></li>
+										<li><a >10</a></li>
+										<li><a >11</a></li>
+										<li><a >12</a></li>
+										<li><a >13</a></li>
+										<li><a >14</a></li>
+										<li><a >15</a></li>
+										<li><a >16</a></li>
+										<li><a >17</a></li>
+										<li><a >18</a></li>
+										<li><a >19</a></li>
+										<li><a >20</a></li>
+					
+				</ul>
+			</form>
+		</div>
+      		<div class="goods-subcon">
+           			<div class="goods-icon">全新改款</div>
+                        
+			<img src="https://www.goodchos.com.tw/upload/shop/6d1904d17254b3fd77075874c0843bfe.png">
+            			<dl>
+				<dt>蔥蒜香腸乳酪</dt>
+				<dd>Sausage  with Garlic </dd>
+			</dl>
+			
+            			<img src="/theme/frontend/img/buy-icon06.png" width="60" class="vegetarian">
+            			
+            			<span><!--$60--></span>
+			<span class="discount-price">$60</span>
+						
+			
+			<p>揉進三星蔥麵團裡的是煙燻德式香腸丁和新鮮大蒜泥製成的蒜香乳酪，辛香夠味讓人胃口大開。</p>
+			<form>
+				<a class="goods-num" ></a>
+				<input type="tel" pattern="[0-9]*" class="input_prod" value="" name="product-65" data="65" placeholder="輸入或下拉選取" maxlength=3 />
+				<span><div class="icon-01"></div>個</span>
+				<ul class="goods-numcon">
+										<li><a >1</a></li>
+										<li><a >2</a></li>
+										<li><a >3</a></li>
+										<li><a >4</a></li>
+										<li><a >5</a></li>
+										<li><a >6</a></li>
+										<li><a >7</a></li>
+										<li><a >8</a></li>
+										<li><a >9</a></li>
+										<li><a >10</a></li>
+										<li><a >11</a></li>
+										<li><a >12</a></li>
+										<li><a >13</a></li>
+										<li><a >14</a></li>
+										<li><a >15</a></li>
+										<li><a >16</a></li>
+										<li><a >17</a></li>
+										<li><a >18</a></li>
+										<li><a >19</a></li>
+										<li><a >20</a></li>
+					
+				</ul>
+			</form>
+		</div>
+      		<div class="goods-subcon">
+                       
+			<img src="https://www.goodchos.com.tw/upload/shop/2c119bc2ea88ca6fb2935c3a94369c60.png">
+            			<dl>
+				<dt>黑糖黑芝麻</dt>
+				<dd>Brown Sugar & Sesame</dd>
+			</dl>
+			
+            			<img src="/theme/frontend/img/buy-icon01.png" width="60" class="vegetarian">
+            			
+            			<span><!--$55--></span>
+			<span class="discount-price">$55</span>
+						
+			
+			<p>以台南關山手工黑糖與100%的黑芝麻醬製成飽滿內餡，再撒上黑芝麻讓香氣更加濃郁。</p>
+			<form>
+				<a class="goods-num" ></a>
+				<input type="tel" pattern="[0-9]*" class="input_prod" value="" name="product-10" data="10" placeholder="輸入或下拉選取" maxlength=3 />
+				<span><div class="icon-01"></div>個</span>
+				<ul class="goods-numcon">
+										<li><a >1</a></li>
+										<li><a >2</a></li>
+										<li><a >3</a></li>
+										<li><a >4</a></li>
+										<li><a >5</a></li>
+										<li><a >6</a></li>
+										<li><a >7</a></li>
+										<li><a >8</a></li>
+										<li><a >9</a></li>
+										<li><a >10</a></li>
+										<li><a >11</a></li>
+										<li><a >12</a></li>
+										<li><a >13</a></li>
+										<li><a >14</a></li>
+										<li><a >15</a></li>
+										<li><a >16</a></li>
+										<li><a >17</a></li>
+										<li><a >18</a></li>
+										<li><a >19</a></li>
+										<li><a >20</a></li>
+					
+				</ul>
+			</form>
+		</div>
+      		<div class="goods-subcon">
+                       
+			<img src="https://www.goodchos.com.tw/upload/shop/9f715d2b72ff0247b84be1a2e6df24c5.png">
+            			<dl>
+				<dt>柚子鳳梨</dt>
+				<dd>Pomelo & Pineapple </dd>
+			</dl>
+			
+            			<img src="/theme/frontend/img/buy-icon02.png" width="60" class="vegetarian">
+            			
+            			<span><!--$55--></span>
+			<span class="discount-price">$55</span>
+						
+			
+			<p>將在地新鮮柚子果乾浸入清甜白酒中增添風味，讓每一口都是香甜鳳梨與清甜柚子交融的豐厚果香。
+</p>
+			<form>
+				<a class="goods-num" ></a>
+				<input type="tel" pattern="[0-9]*" class="input_prod" value="" name="product-53" data="53" placeholder="輸入或下拉選取" maxlength=3 />
+				<span><div class="icon-01"></div>個</span>
+				<ul class="goods-numcon">
+										<li><a >1</a></li>
+										<li><a >2</a></li>
+										<li><a >3</a></li>
+										<li><a >4</a></li>
+										<li><a >5</a></li>
+										<li><a >6</a></li>
+										<li><a >7</a></li>
+										<li><a >8</a></li>
+										<li><a >9</a></li>
+										<li><a >10</a></li>
+										<li><a >11</a></li>
+										<li><a >12</a></li>
+										<li><a >13</a></li>
+										<li><a >14</a></li>
+										<li><a >15</a></li>
+										<li><a >16</a></li>
+										<li><a >17</a></li>
+										<li><a >18</a></li>
+										<li><a >19</a></li>
+										<li><a >20</a></li>
+					
+				</ul>
+			</form>
+		</div>
+      	</div>
+	
+	
+
+	<div class="goods-title" data-content="選擇耗材"><img src="/theme/frontend/img/pick-03.png" ></div>
+	<div class="goods-con">
+      		<!-- 商品1 -->
+		<div class="goods-subcon">
+						<img src="https://www.goodchos.com.tw/upload/shop/67076b45cf6b760ceba9fce96a0cd9dc.png">
+			<dl>
+				<dt>小紙袋</dt>
+				<dd>Bag ( S )</dd>
+			</dl>
+			<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="60" height="22">
+			
+			<span></span>
+			<span class="discount-price">$6</span>
+			<p>好丘的經典紙袋，可裝10顆左右的貝果。</p>
+			<form>
+				<a class="goods-num" ></a>
+				<input type="text" class="input_prod" value="" name="product-21" data="21" placeholder="輸入或下拉選取"  maxlength=2 />
+				<span><div class="icon-01"></div>個</span>
+				<ul class="goods-numcon">
+										<li><a >1</a></li>
+										<li><a >2</a></li>
+										<li><a >3</a></li>
+										<li><a >4</a></li>
+										<li><a >5</a></li>
+										<li><a >6</a></li>
+										<li><a >7</a></li>
+										<li><a >8</a></li>
+										<li><a >9</a></li>
+										<li><a >10</a></li>
+										<li><a >11</a></li>
+										<li><a >12</a></li>
+										<li><a >13</a></li>
+										<li><a >14</a></li>
+										<li><a >15</a></li>
+										<li><a >16</a></li>
+										<li><a >17</a></li>
+										<li><a >18</a></li>
+										<li><a >19</a></li>
+										<li><a >20</a></li>
+									</ul>
+			</form>
+		</div>
+		<!-- 商品1 -->
+		<div class="goods-subcon">
+						<img src="https://www.goodchos.com.tw/upload/shop/e3e934f8f4ef421a4577c63105b7c3f6.png">
+			<dl>
+				<dt>大紙袋</dt>
+				<dd>Bag ( L )</dd>
+			</dl>
+			<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="60" height="22">
+			
+			<span></span>
+			<span class="discount-price">$7</span>
+			<p>好丘的經典紙袋，可裝15顆以上的貝果。</p>
+			<form>
+				<a class="goods-num" ></a>
+				<input type="text" class="input_prod" value="12" name="product-2" data="2" placeholder="輸入或下拉選取"  maxlength=2 />
+				<span><div class="icon-01"></div>個</span>
+				<ul class="goods-numcon">
+										<li><a >1</a></li>
+										<li><a >2</a></li>
+										<li><a >3</a></li>
+										<li><a >4</a></li>
+										<li><a >5</a></li>
+										<li><a >6</a></li>
+										<li><a >7</a></li>
+										<li><a >8</a></li>
+										<li><a >9</a></li>
+										<li><a >10</a></li>
+										<li><a >11</a></li>
+										<li><a >12</a></li>
+										<li><a >13</a></li>
+										<li><a >14</a></li>
+										<li><a >15</a></li>
+										<li><a >16</a></li>
+										<li><a >17</a></li>
+										<li><a >18</a></li>
+										<li><a >19</a></li>
+										<li><a >20</a></li>
+									</ul>
+			</form>
+		</div>
+	</div>
+
+
+
+
+<div class="goods-chickocn" id="cartbox">
+	<div class="goods-from-title">
+		<img width="144" src="/theme/frontend/img/goods-chicktitle.png">
+	</div>
+	<img width="90" src="/theme/frontend/img/chickicon02png" class="chickicon">
+
+	<ul class="list-con">
+		<li class="list-category">類別</li>
+		<li class="list-name">品名</li>
+		<li class="list-cost">售價</li>
+		<li class="list-quantity">數量</li>
+		<li class="list-count">單品小計</li>
+				<li class="list-cancel">刪除</li>
+			</ul>
+
+	<!-- 商品list -->
+    	<ul class="list-con4 ">
+		<li class="list-category">
+							包材
+					</li>
+		<li class="list-name">大紙袋</li>
+		<li class="list-cost ">$7</li>
+		<li class="list-quantity">
+                            <input name="cart_item[2]" value="12" class="cart_item" data="2">
+            		</li>
+		<li class="list-count">$84</li>
+				<li class="list-count-btn">
+			<a href="https://www.goodchos.com.tw/shopping/cart_remove/theme/f74e5dff3219dc5105a57bcd23dfb59c"><img src="/theme/frontend/img/from-icon-cencel.png"></a>
+		</li>
+			</ul>
+		
+	<!-- 贈品list -->
+		
+	<div class="list-chickcon">
+		<div class="list-totalcon">
+			<div class="list-totalcount">貝果數量</div>
+			<div class="list-totalquatitly">0<span>個</span></div>
+			<div class="list-totalaccount">貝果金額</div>
+			<div class="list-totalcost">0<span>元</span></div>
+					</div>
+		
+		<div class="list-realcon">
+			<div class="list-realaccount">實際金額</div>
+			<div class="list-realcost">0<span>元</span></div>
+		</div>
+
+		<div class="list-othercon">
+			<div class="list-packaccount">包材金額</div>
+			<div class="list-packcost">84<span>元</span></div>
+			<div class="list-tranaccount">宅配運費</div>
+			<div class="list-transcost">200<span>元</span></div>
+		</div>
+
+		<div class="list-ordercon">
+			<div class="list-orderaccount">訂單金額</div>
+			<div class="list-ordercost">284<span>元</span></div>
+
+			<div class="list-remind02">
+				單筆訂單「實際金額」滿 2000 元，可享免運費服務				<div class="list-remind-icon02"></div>
+			</div>
+		</div>
+	</div>
+		<div class="list-icon03">
+		<a href="javascript:void(0);" id="btn_coupon"></a>
+	</div>
+	<form method="post" action="https://www.goodchos.com.tw/shopping/coupon" id="frm_coupon">
+	<div class="list-input"  id="in_coupon">
+			<input name="uid" placeholder="手機號碼" type="text" maxlength="10">
+			<input name="coupon" placeholder="折扣碼" type="text" maxlength="8">
+	</div>
+	</form>
+	<!--<div class="list-remind03" id="none_coupon">
+		｜ 小提醒 ｜<br>
+		若您有折扣碼請點此輸入，<br>
+		原有優惠活動或金額將被取代，<br>
+		讓系統計算是否能獲得更好的優惠！
+	 </div>-->
+	<div class="list-fail-remind" style="display: none" id="err_coupon"><p>您輸入的折扣碼無效，請確認使用條件及輸入資訊是否正確！</p></div>
+	
+</div>
+
+<div class="goods-title goods-counticon">
+	<a href="https://www.goodchos.com.tw/shopping/choose/theme" class="goods-counticon-btn">
+		<img src="/theme/frontend/img/goods-counticon.png" width='134'>
+		</a>
+
+	<div class="goods-counting-remind">
+		一次選取商品及包材數量後，點擊此鍵計算訂單金額。
+	</div>
+
+	
+
+</div>
+<!-- 金額計算鍵 -->
+
+
+<div class="choose-goods-btncon">
+	<div class="choose-goods-btn-back"><a href="https://www.goodchos.com.tw/shopping">上一步：配送方式</a></div>
+			<div class="choose-goods-btn-pay"><a href="https://www.goodchos.com.tw/shopping/confirm/theme">下一步：資料填寫</a></div>
+	</div>
+</div><!-- container end -->
+
+<form method="post" action="https://www.goodchos.com.tw/shopping/coupon" id="frm">
+	
+</form>
+
+</div>
+<div id="footer">
+      <div class="footer_gif"></div>
+	  <a href="https://www.goodchos.com.tw/article/25">關於我們</a>
+	<a href="http://www.goodchos.com.tw/search?q=%E5%AA%92%E9%AB%94%E5%A0%B1%E5%B0%8E">媒體報導</a>
+	<a href="https://www.goodchos.com.tw/article/44">聯絡我們</a>
+	<a href="http://www.104.com.tw/jobbank/custjob/index.php?r=cust&j=5e6042263c6c3f2230323c1d1d1d1d5f2443a363189j01&jobsource=n104bank1">加入我們</a>
+      <div class="footerMessage">
+	  <a href="https://www.goodchos.com.tw/" class="footer_logo">
+	  <img src="https://www.goodchos.com.tw/theme/frontend/img/footerlogo.png" href></a>
+        <div class="footerMessage__linkList">
+		<a href="https://www.facebook.com/goodchos/?fref=ts"><img src="https://www.goodchos.com.tw/theme/frontend/img/icon/FB_W@2x.png" alt></a>
+		<a href="https://lin.ee/8OmJghA"><img src="https://www.goodchos.com.tw/theme/frontend/img/icon/Line_W@2x.png" alt></a></div>
+      </div>
+    </div>
+ <script src="https://www.goodchos.com.tw/theme/frontend/js/swiper.min.js"></script>
+<script src="https://www.goodchos.com.tw/theme/frontend/js/all.js"></script>
+<script type="text/javascript">
+	 function show_cart_msg() {
+        alert('請先點選金額計算!');
+		return false;
+     }
+	 
+	 $(function() {
+		
+		
+		//折扣碼輸入控制
+		$("#btn_coupon").click(function(){
+			var class_name = $(this).parent('div:first').attr('class');
+			if (class_name == "list-icon01") {
+                $("#in_coupon").show();
+				$("#err_coupon,#none_coupon").hide();
+				$(this).parent('div:first').attr('class','list-icon03');
+            }else{
+				var uid = $("input[name=uid]").val();
+				var coupon = $("input[name=coupon]").val();
+				if (uid == "" || uid.length != 10) {
+                    alert("手機號碼錯誤!");return false;
+                }
+				if (coupon == "") {
+                    alert("折扣碼錯誤!");return false;
+                }
+				
+				var datastring = $("#frm_coupon").serialize();
+				$.ajax({
+					type: "POST",
+					url: "https://www.goodchos.com.tw/shopping/check_coupon",
+					data: datastring,
+					dataType: "json",
+					success: function(data) {
+						///alert(data.status);
+						if (data.status == false) {
+							$("#in_coupon").hide();
+							$("#btn_coupon").parent('div:first').attr('class','list-icon01');
+                            $("#err_coupon").show();
+							$("input[name=uid],input[name=coupon]").val('');
+                        }else{
+							location.href="https://www.goodchos.com.tw/shopping/choose/theme";
+						}
+					},
+					error: function() {
+						alert('error handing here');
+					}
+				});
+			}
+		});
+		
+		if ($("#cartbox").size() > 0) {
+			$('html,body').animate({
+			scrollTop: $("#cartbox").offset().top - 100},
+			'fast');    
+        }
+		$("form").submit(function(){
+			return false;
+		});
+		$(".goods-numcon a").click(function(){
+			//console.log($(this).text());
+			var input_obj = $(this).parents('form:first').find('input:first');
+			var productid = $(this).parents('form:first').find('input:first').attr('data');
+			var qty = $(this).text();
+			//console.log(input_obj+"-"+productid+"-"+num);
+			$.ajax({
+			method: "POST",
+			url: "https://www.goodchos.com.tw/shopping/cart_add",
+			data: { prod: productid, num: qty }
+		  })
+			.done(function( msg ) {
+			  //alert( "Data Saved: " + msg );
+			  if (msg=="success") {
+                input_obj.val(qty);
+              }else{
+				alert(msg);
+			  }
+			});
+		})
+		$(".cart_item,.input_prod").keyup(function() {
+			var productid = $(this).attr('data');
+			
+			var qty = parseInt($(this).val());
+			if (isNaN(qty) || qty <= 0) {
+				$(this).val('');
+                return false;
+            }
+			if (qty > 200) {
+				$(this).val('');
+                alert('單品項訂購數量最大上限200');return false;
+            }
+			$.ajax({
+			method: "POST",
+			url: "https://www.goodchos.com.tw/shopping/cart_add",
+			data: { prod: productid, num: qty }
+		  })
+			.done(function( msg ) {
+			  
+			});
+		});
+	 });
+	
+</script>
+
+</body>
+</html>

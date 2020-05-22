@@ -1,0 +1,50 @@
+.bstimeslider {
+    
+width: 1140px;
+height:280px;
+/*background:#ccc;*/
+position:relative;
+margin-bottom: 20px;
+}
+
+.bktibx {
+    
+float:left;
+margin:0 40px 0 0 ;
+font-size:18px;
+width:60px;
+display:block;
+background:#000;
+color:#fff;
+    
+}
+
+#tslshow {
+position:absolute;
+left:0;
+width: 2650px;
+   
+}
+#viewContainer {
+    /*background: #00ff00 none repeat scroll 0 0;*/
+    height: 100%;
+    left: 180px;
+    margin-left: -180px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+
+.news_banner_con {
+    width:215px;
+    margin-right: 0.6%;
+}
+.news_banner_con:nth-child(10) {
+    margin-right: 20px;
+}
+.sub_info_text{
+    height:60px;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-all;
+}
