@@ -342,6 +342,7 @@ top: 0px;
   .frm_area .list-input input{
     width: 256px;
     line-height: 3;
+    border-radius: 0;
   }
   .list-ordercon .list-ordercost {
     font-size: 1.5rem;
@@ -403,5 +404,8 @@ top: 0px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+  }
+  .tips p{
+    font-size: 0.75rem;
   }
 }
