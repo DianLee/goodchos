@@ -309,32 +309,50 @@ top: 0px;
     top: -4px;
   }
   .dis_title{
-    display: none;
+    /*display: none;*/
+    
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #666;
+    bottom: -55px;
+    left: 0px;
+    position: relative;
+  }
+  .dis_title h1{
+    float: none;
+    width: 100%;
+    text-align: center;
+    border-right: 0px;
+    bottom: 0px;
+    left: -5px;
   }
   .discount_area {
     height: 100%;
     width: 100%;
     position: relative;
-    bottom: 0px;
-    left: 5px;
+    bottom: -20px;
+    left: 0px;
     float: left;
   }
   .input_area {
     float: none;
+    top: 60px;
+}
   }
   .frm_area {
     float: left;
     position: relative;
-    top: 80px;
+    top: 37px;
     margin-left: 35%;
-    left: -130px;
+    left: -124px;
   }
   .list-icon03 {
     float: left;
-    margin-top: 70px;
+    margin-top: 20px;
     margin-left: 35%;
     position: relative !important;
-    left: 0;
+    left: -95px;
+    width: 100%;
     bottom: 0;
   }
   .frm_area .list-input{
@@ -417,5 +435,18 @@ top: 0px;
   .frm_area ::placeholder{
  color: #BA9662;
  font-size: 1rem;
+  }
+  .coupon_icon, .coupon_icon:hover {
+    max-width: 300px;
+    background-image: url(../theme/frontend/img/coupon_normal02.png);
+  }
+  .member_icon, .member_icon:hover { 
+  max-width: 300px;
+  background-image: url(../theme/frontend/img/member_normal02.png) ;
+  }
+  .goods-title a, .goods-from-title a {
+    width: 120px;
+    height: 120px;
+    background-image: url(../../img/goods-counticon.png);
   }
 }

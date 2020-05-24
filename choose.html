@@ -1080,30 +1080,59 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
      }
 	 
 	 $(function() {
-		
+			
 		//折扣碼輸入控制
 		$("#btn_coupon").click(function(){
-			var x = document.getElementById('frm_coupon');
-			var icon = document.getElementById('coupon_discount_icon');
-		  if (x.style.display === 'block') {
-		    x.style.display = 'none';
-		    icon.style.cssText = 'background-image: url(theme/frontend/img/coupon_normal.png); background-size:cover;';
-		  } else {
-		    x.style.display = 'block';
-		    icon.style.cssText = 'background-image:url(theme/frontend/img/coupon_active.png); background-size:cover;';
-		  }
+			if ($(window).width() >= 768){
+				var x = document.getElementById('frm_coupon');
+				var icon = document.getElementById('coupon_discount_icon');
+			  if (x.style.display === 'block') {
+			    x.style.display = 'none';
+			    icon.style.cssText = 'background-image: url(theme/frontend/img/coupon_normal.png); background-size:cover;';
+			  } else {
+			    x.style.display = 'block';
+			    icon.style.cssText = 'background-image:url(theme/frontend/img/coupon_active.png); background-size:cover;';
+			  }
+			}
+			else{
+				var x = document.getElementById('frm_coupon');
+				var icon = document.getElementById('coupon_discount_icon');
+			  if (x.style.display === 'block') {
+			    x.style.display = 'none';
+			    icon.style.cssText = 'background-image: url(theme/frontend/img/coupon_normal02.png); background-size:center;max-width: 300px;';
+			  } else {
+			    x.style.display = 'block';
+			    icon.style.cssText = 'background-image:url(theme/frontend/img/coupon_active02.png); background-size:center;max-width: 300px;';
+			  }
+
+			}
 			
 		});
 		$("#btn_member").click(function(){
-			var x = document.getElementById('frm_member');
-			var icon = document.getElementById('member_discount_icon');
-		  if (x.style.display === 'block') {
-		    x.style.display = 'none';
-		    icon.style.cssText = 'background-image: url(theme/frontend/img/member_normal.png); background-size:cover;';
-		  } else {
-		    x.style.display = 'block';
-		    icon.style.cssText = 'background-image:url(theme/frontend/img/member_active.png); background-size:cover;';
-		  }
+			if ($(window).width() >= 768){
+				var x = document.getElementById('frm_member');
+				var icon = document.getElementById('member_discount_icon');
+			  if (x.style.display === 'block') {
+			    x.style.display = 'none';
+			    icon.style.cssText = 'background-image: url(theme/frontend/img/member_normal.png); background-size:cover;';
+			  } else {
+			    x.style.display = 'block';
+			    icon.style.cssText = 'background-image:url(theme/frontend/img/member_active.png); background-size:cover;';
+			  }
+			}
+			else{
+				var x = document.getElementById('frm_member');
+				var icon = document.getElementById('member_discount_icon');
+			  if (x.style.display === 'block') {
+			    x.style.display = 'none';
+			    icon.style.cssText = 'background-image: url(theme/frontend/img/member_normal02.png); background-size:center;max-width:300px;';
+			  } else {
+			    x.style.display = 'block';
+			    icon.style.cssText = 'background-image:url(theme/frontend/img/member_active02.png); background-size:center;max-width:300px;';
+
+				}
+			}
+			
 			
 		});
 
