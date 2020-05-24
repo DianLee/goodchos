@@ -337,7 +337,7 @@ top: 0px;
   .input_area {
     float: none;
     top: 60px;
-}
+    margin-right: 0;
   }
   .frm_area {
     float: left;
@@ -437,16 +437,16 @@ top: 0px;
  font-size: 1rem;
   }
   .coupon_icon, .coupon_icon:hover {
-    max-width: 300px;
+    max-width: 280px;
     background-image: url(../theme/frontend/img/coupon_normal02.png);
   }
   .member_icon, .member_icon:hover { 
-  max-width: 300px;
+  max-width: 280px;
   background-image: url(../theme/frontend/img/member_normal02.png) ;
   }
   .goods-title a, .goods-from-title a {
     width: 120px;
     height: 120px;
-    background-image: url(../../img/goods-counticon.png);
+    background-image: url(../theme/frontend/img/goods-counticon.png);
   }
 }
