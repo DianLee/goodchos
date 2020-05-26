@@ -177,11 +177,11 @@ top: 0px;
 .tips p{
   float: left;
   font-size: 10px;
+  width: 270px;
   
-  width: 100%;
   position: relative;
   top: -55px;
-  left: 30px;
+  left: -164px;
 }
 .coupon{
   color: #BA9662;
@@ -228,8 +228,25 @@ top: 0px;
 .input_area button{
   border:0;
 }
+.button_align_center{
+  float: left;
+  width: 90px;
+}
+#member_tips_string{
+  position: relative;
+  left: -185px;
+}
 @media screen and (max-width: 768px){
-.list-remind02 {
+  .tips p {
+    float: none;
+    font-size: 10px;
+    width: 100%;
+    position: relative;
+    top: -35px;
+    left: auto;
+    margin-left: 5px;
+  }
+  .list-remind02 {
     width: 200%;
     position: absolute;
     top: 0;
@@ -283,6 +300,7 @@ top: 0px;
     width: 200%;
     text-align: center;
     font-size: 0.75rem;
+    background-color: #FFF;
   }
   .list-remind06 .list-remind-icon06, .list-remind06:after, .list-remind05:after  {
     display: none;
@@ -301,6 +319,7 @@ top: 0px;
     left: -110px;
     float: right;
     text-align: center;
+    background-color: #FFF;
   }
   .list-remind-icon05{
     display: none;
@@ -340,28 +359,42 @@ top: 0px;
     margin-right: 0;
   }
   .frm_area {
-    float: left;
+    float: none;
     position: relative;
     top: 37px;
-    margin-left: 35%;
-    left: -124px;
+    margin: auto;
+    left: auto;
+    width: 100%;
   }
   .list-icon03 {
-    float: left;
+    float: none;
     margin-top: 20px;
-    margin-left: 35%;
+    margin: auto;
     position: relative !important;
-    left: -95px;
+    left: auto;
     width: 100%;
-    bottom: 0;
+    bottom: -20px;
   }
   .frm_area .list-input{
-    width: 276px;
+     float: none; 
+    position: relative;
+    margin: auto;
+    bottom: 30px;
+    left: auto;
+    width: 99%;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
+    max-width: 276px;
+    width: 100%;
+  }
+  #frm_coupon {
+    float: none;
+    /*max-width: 256px;*/
+    width: 100%;
   }
   .frm_area .list-input input{
-    width: 256px;
+        width: 100%;
+    max-width: 256px;
     line-height: 3;
     border-radius: 0;
     font-size: 1rem;
@@ -370,14 +403,15 @@ top: 0px;
     font-size: 1.5rem;
   }
   #coupon_comfirm_btn {
-    float: left;
+    float: none;
     position: relative;
-    margin: 0 0 0 27px;
+    margin: 0 auto;
     padding: 10px 10px 10px 10px;
     background: #BA9662;
-    top: -51px;
+    top: -30px;
     height: auto;
-    left: 3px;
+    left: auto;
+    /*margin-left: 5px;*/
     width: 260px;
     text-align: center;
     border-top-right-radius: 0px;
@@ -385,17 +419,19 @@ top: 0px;
     border-bottom-right-radius: 5px;
   }
   .member_point {
-    float: left;
+    float: none;
     line-height: 3rem;
     width: 276px;
     position: relative;
-    top: -50px;
-    left: 30px;
+    top: -27px;
+    height: 100px;
+    left: auto;
     border: 1px solid #8F6D55;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 0px;
     font-size: 100%;
+    margin: 0 auto;
   }
   .member_value {
     float: left;
@@ -415,15 +451,16 @@ top: 0px;
     font-size: 1rem;
   }
   #member_comfirm_btn {
-    float: left;
+        float: left;
     position: relative;
-    margin: 0 0 0 27px;
+    margin: auto;
     padding: 10px 10px 10px 10px;
     background: #8F6D55;
-    top: -51px;
+    top: -30px;
     height: auto;
-    left: 3px;
-    width: 258px;
+    left: 1px;
+    width: 100%;
+    max-width: 258px;
     text-align: center;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 5px;
@@ -448,5 +485,18 @@ top: 0px;
     width: 120px;
     height: 120px;
     background-image: url(../theme/frontend/img/goods-counticon.png);
+  }
+  .goods-chickocn {
+    padding: 0px 10px 100px;
+  }
+  .button_align_center{
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+    float: none;
+  }
+  #member_tips_string{
+  position: relative;
+  left: auto;
   }
 }
