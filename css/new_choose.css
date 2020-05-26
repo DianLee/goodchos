@@ -303,7 +303,7 @@ top: 0px;
     position: absolute;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    top: 120px;
+    top: 140px;
     width: auto;
     left: -10px;
     width: 100%;
@@ -322,7 +322,7 @@ top: 0px;
     position: absolute;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    top: 120px;
+    top: 140px;
     width: 100%;
     line-height: 1.4;
     left: -10px;
@@ -563,9 +563,11 @@ top: 0px;
     text-align: right;
     width: 110px;
   }
-  .list-ordercon .list-orderaccount,.list-othercon .list-packaccount, .list-othercon .list-tranaccount, .list-othercon .list-packcost, .list-othercon .list-transcost ,.list-bouns,.list-chickcon .list-realcon .list-realcost,.list-totalcon .list-totalcount, .list-totalcon .list-totalquatitly, .list-totalcon .list-totalaccount, .list-totalcon .list-totalcost{
+  .list-bouns .list-realdiscount,.list-ordercon .list-orderaccount,.list-othercon .list-packaccount, .list-othercon .list-tranaccount, .list-othercon .list-packcost, .list-othercon .list-transcost ,.list-bouns,.list-chickcon .list-realcon .list-realcost,.list-totalcon .list-totalcount, .list-totalcon .list-totalquatitly, .list-totalcon .list-totalaccount, .list-totalcon .list-totalcost{
     font-size: 1rem;
     line-height: 1.5rem;
   }
-}
+  .list-totalcon .list-totalcost {
+    top: 24px;
+  }
 }
