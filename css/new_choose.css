@@ -258,7 +258,7 @@ top: 0px;
     position: relative;
     top: 0;
     right: 0;
-    left: -5px;
+    left: -10px;
     font-size: 0.75rem;
     text-align: left;
     background-color: #f8f8f8;
@@ -303,9 +303,9 @@ top: 0px;
     position: absolute;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    top: 110px;
+    top: 120px;
     width: auto;
-    left: -5px;
+    left: -10px;
     width: 100%;
     text-align: center;
     font-size: 0.75rem;
@@ -325,7 +325,7 @@ top: 0px;
     top: 120px;
     width: 100%;
     line-height: 1.4;
-    left: -5px;
+    left: -10px;
     float: none;
     text-align: left;
     height: 45px;
@@ -563,4 +563,8 @@ top: 0px;
     text-align: right;
     width: 110px;
   }
+  .list-ordercon .list-orderaccount,.list-othercon .list-packaccount, .list-othercon .list-tranaccount, .list-othercon .list-packcost, .list-othercon .list-transcost ,.list-bouns,.list-chickcon .list-realcon .list-realcost,.list-totalcon .list-totalcount, .list-totalcon .list-totalquatitly, .list-totalcon .list-totalaccount, .list-totalcon .list-totalcost{
+    font-size: 1rem;
+  }
+}
 }
