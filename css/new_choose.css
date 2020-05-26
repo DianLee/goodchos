@@ -31,12 +31,12 @@ a:focus {
  opacity: 0.7 
 }
 .coupon_icon:hover{
-  background-image: url(../theme/frontend/img/coupon_active.png) ;
-  opacity: 1;
+  /*background-image: url(../theme/frontend/img/coupon_active.png) ;*/
+  opacity: 0.9;
 }
 .member_icon:hover{
-  background-image: url(../theme/frontend/img/member_active.png) ;
-  opacity: 1;
+  /*background-image: url(../theme/frontend/img/member_active.png) ;*/
+  opacity: 0.9;
 }
 .list-icon01 a, .list-icon02 a, .list-icon03 a { 
   width: 100%;
@@ -65,10 +65,10 @@ a:focus {
   position: relative;
     top: 20px;
 }
-.list-input, .card-page-input, .atm-page-input { width: 190px;float: left; position: relative; bottom: 50px; left: 30px; border: 2px solid #BA9662; -webkit-border-radius: 5px; border-radius: 5px }
-.list-input input, .card-page-input input, .atm-page-input input { text-align: left; color: #BA9662; width: 170px; padding: 7px 10px }
+.list-input, .card-page-input, .atm-page-input { width: 190px;float: left; position: relative; bottom: 50px; left: 30px; border: 2px solid #AC874B; -webkit-border-radius: 5px; border-radius: 5px }
+.list-input input, .card-page-input input, .atm-page-input input { text-align: left; color: #AC874B; width: 170px; padding: 7px 10px }
 .list-input input:nth-child(1), .card-page-input input:nth-child(1), .atm-page-input input:nth-child(1) { -webkit-border-top-left-radius: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-topleft: 5px; -moz-border-radius-topright: 5px; border-top-left-radius: 5px; border-top-right-radius: 5px }
-.list-input input:nth-child(2), .card-page-input input:nth-child(2), .atm-page-input input:nth-child(2) { -webkit-border-bottom-left-radius: 5px; -webkit-border-bottom-right-radius: 5px; -moz-border-radius-bottomleft: 5px; -moz-border-radius-bottomright: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top: 2px solid #BA9662 }
+.list-input input:nth-child(2), .card-page-input input:nth-child(2), .atm-page-input input:nth-child(2) { -webkit-border-bottom-left-radius: 5px; -webkit-border-bottom-right-radius: 5px; -moz-border-radius-bottomleft: 5px; -moz-border-radius-bottomright: 5px; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; border-top: 2px solid #AC874B }
 
 .goods-chickocn { width: 100%; padding: 0px 30px 100px; border: 1px solid #000; position: relative; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin-bottom: 20px }
 .goods-chickocn:after { content: ""; display: block; clear: both }
@@ -78,7 +78,7 @@ a:focus {
 .list-remind05 {
     color: #000;
     font-size: 0.9rem;
-    border: 3px solid #8F6D55;
+    border: 3px solid #6a5e52;
     padding: 0px 10px;
     position: absolute;
     -webkit-border-radius: 5px;
@@ -95,11 +95,11 @@ position: relative;
 top: 0px;
 }
 
-.list-remind05:after { content: ""; width: 0; height: 0; position: absolute; border-style: solid; border-width: 11px 0 11px 14px; border-color: transparent transparent transparent #8F6D55;; top: 2px; right: -14px }
+.list-remind05:after { content: ""; width: 0; height: 0; position: absolute; border-style: solid; border-width: 11px 0 11px 14px; border-color: transparent transparent transparent #6a5e52;; top: 2px; right: -14px }
 .list-remind05 .list-remind-icon05 { width: 30px; height: 30px; background-image: url(../theme/frontend/img/list-icon05.png); background-repeat: no-repeat; -webkit-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; position: absolute; position: absolute; top: 1px; left: -40px }
 .list-remind05 .list-remind-icon05-ok { width: 30px; height: 30px; background-image: url(../theme/frontend/img/list-icon07.png); background-repeat: no-repeat; -webkit-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; position: absolute; position: absolute; top: -2px; left: -40px }
-.list-remind06 { float: right; border: 3px solid #BA9662; padding: 3px 10px; position: absolute; -webkit-border-radius: 5px; border-radius: 5px; top: -5px; width: auto; left: -300px; text-align: center }
-.list-remind06:after { content: ""; width: 0; height: 0; position: absolute; border-style: solid; border-width: 11px 0 11px 14px; border-color: transparent transparent transparent #BA9662; top: 2px; right: -14px }
+.list-remind06 { float: right; border: 3px solid #AC874B; padding: 3px 10px; position: absolute; -webkit-border-radius: 5px; border-radius: 5px; top: -5px; width: auto; left: -300px; text-align: center }
+.list-remind06:after { content: ""; width: 0; height: 0; position: absolute; border-style: solid; border-width: 11px 0 11px 14px; border-color: transparent transparent transparent #AC874B; top: 2px; right: -14px }
 .list-remind06 .list-remind-icon06 { width: 30px; height: 30px; background-image: url(../theme/frontend/img/list-icon05.png); background-repeat: no-repeat; -webkit-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; position: absolute; position: absolute; top: -2px; left: -40px }
 .list-remind06 .list-remind-icon06-ok { width: 30px; height: 30px; background-image: url(../theme/frontend/img/list-icon06.png); background-repeat: no-repeat; -webkit-background-size: 100% auto; -o-background-size: 100% auto; background-size: 100% auto; position: absolute; position: absolute; top: -2px; left: -40px }
 .list-totalcon .list-totalquatitly {
@@ -156,7 +156,7 @@ top: 0px;
     position: relative;
     margin: 0 0 0 27px;
     padding: 14px 10px 26px 10px;
-    background: #BA9662;
+    background: #AC874B;
     top: -50px;
     height: 34px;
     border-top-right-radius: 5px;
@@ -168,13 +168,15 @@ top: 0px;
   top: 15px;
 }
 .frm_area ::placeholder{
- color: #BA9662;
+ color: #AC874B;
  font-size: 13px;
 }
 .frm_area h1{
  color: #FFF;
  font-size: 19px;
  font-weight: 400;
+ position: relative;
+  top: -3px;
 }
 #frm_coupon, #frm_member{
   display: none;
@@ -189,10 +191,10 @@ top: 0px;
   left: -164px;
 }
 .coupon{
-  color: #BA9662;
+  color: #AC874B;
 }
 .member{
-  color: #8F6D55;
+  color: #6a5e52;
 }
 .member_point{
   float: left;
@@ -201,7 +203,7 @@ top: 0px;
   position: relative;
     top: -50px;
     left: 30px;
-    border:1px solid #8F6D55;
+    border:1px solid #6a5e52;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     font-size: 100%;
@@ -209,14 +211,14 @@ top: 0px;
 .member_value{
   float: left;
   width: 90px;
-  border:1px solid #8F6D55;
+  border:1px solid #6a5e52;
   padding-right: 10px;
   text-align: right;
 }
 .member_item{
   float: left;
   width: 100px;
-  border:1px solid #8F6D55;
+  border:1px solid #6a5e52;
   padding-left: 10px;
 }
 #member_comfirm_btn{
@@ -224,7 +226,7 @@ top: 0px;
     position: relative;
     margin: 0 0 0 27px;
     padding: 14px 10px 26px 10px;
-    background: #8F6D55;
+    background: #6a5e52;
     top: -50px;
     height: 34px;
     border-top-right-radius: 5px;
@@ -252,21 +254,22 @@ top: 0px;
     margin-left: 5px;
   }
   .list-remind02 {
-    width: 200%;
-    position: absolute;
+    width: 100%;
+    position: relative;
     top: 0;
     right: 0;
-    left: -77%;
+    left: -5px;
     font-size: 0.75rem;
     text-align: left;
     background-color: #f8f8f8;
     margin-top: 40px;
   }
   .list-chickcon {
-    width: 140px;
-    float: left;
-    margin-left: 35%;
-    /* margin-right: calc(100% - 140px); */
+    width: 230px;
+    float: none;
+    /* margin-left: auto; */
+    margin: auto;
+    margin-top: 20px;
   }
   .list-bouns {
     width: 100%;
@@ -284,8 +287,9 @@ top: 0px;
     margin-right: 10px;
   }
   .list-bouns .list-realdiscount {
-    top: 20px;
+        top: 0px;
     right: 0;
+    position: absolute;
     font-size: 0.875rem;
     width: 74px;
   }
@@ -294,15 +298,15 @@ top: 0px;
   }
   .list-remind06 {
     float: right;
-    border: 3px solid #BA9662;
+    border: 3px solid #AC874B;
     padding: 3px 10px;
     position: absolute;
     -webkit-border-radius: 5px;
     border-radius: 5px;
     top: 110px;
     width: auto;
-    left: -110px;
-    width: 200%;
+    left: -5px;
+    width: 100%;
     text-align: center;
     font-size: 0.75rem;
     background-color: #FFF;
@@ -313,17 +317,19 @@ top: 0px;
   .list-remind05 {
     color: #000;
     font-size: 0.75rem;
-    border: 3px solid #8F6D55;
+    border: 3px solid #6a5e52;
     padding: 0px 10px;
     position: absolute;
     -webkit-border-radius: 5px;
     border-radius: 5px;
     top: 120px;
-    width: 200%;
-    line-height: 1.2;
-    left: -110px;
-    float: right;
-    text-align: center;
+    width: 100%;
+    line-height: 1.4;
+    left: -5px;
+    float: none;
+    text-align: left;
+    height: 45px;
+    /* margin-bottom: 10px; */
     background-color: #FFF;
   }
   .list-remind-icon05{
@@ -349,6 +355,10 @@ top: 0px;
     border-right: 0px;
     bottom: 0px;
     left: -5px;
+  }
+  .frm_area h1{
+   position: relative;
+  top: auto;
   }
   .discount_area {
     height: 100%;
@@ -379,6 +389,7 @@ top: 0px;
     left: auto;
     width: 100%;
     bottom: -20px;
+    height: 70px;
   }
   .frm_area .list-input{
      float: none; 
@@ -411,8 +422,8 @@ top: 0px;
     float: none;
     position: relative;
     margin: 0 auto;
-    padding: 10px 10px 10px 10px;
-    background: #BA9662;
+    padding: 5px 10px 5px 10px;
+    background: #AC874B;
     top: -30px;
     height: auto;
     left: auto;
@@ -431,7 +442,7 @@ top: 0px;
     top: -27px;
     height: 132px;
     left: auto;
-    border: 1px solid #8F6D55;
+    border: 1px solid #6a5e52;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 0px;
@@ -441,8 +452,8 @@ top: 0px;
   .member_value {
     float: left;
     width: 154px;
-    border: 1px solid #8F6D55;
-    border-left:  0px solid #8F6D55;
+    border: 1px solid #6a5e52;
+    border-left:  0px solid #6a5e52;
     padding-right: 10px;
     height: 66px;
     text-align: right;
@@ -451,19 +462,19 @@ top: 0px;
   .member_item {
     float: left;
     width: 100px;
-    border: 1px solid #8F6D55;
-    border-right:  0px solid #8F6D55;
+    border: 1px solid #6a5e52;
+    border-right:  0px solid #6a5e52;
     padding-left: 10px;
     height: 66px;
     font-size: 1rem;
   }
 
   #member_comfirm_btn {
-        float: left;
+    float: left;
     position: relative;
     margin: auto;
-    padding: 10px 10px 10px 10px;
-    background: #8F6D55;
+    padding: 5px 10px 5px 10px;
+    background: #6a5e52;
     top: -30px;
     height: auto;
     left: 1px;
@@ -478,7 +489,7 @@ top: 0px;
     font-size: 0.75rem;
   }
   .frm_area ::placeholder{
- color: #BA9662;
+ color: #AC874B;
  font-size: 1rem;
   }
   .coupon_icon, .coupon_icon:hover {
@@ -506,5 +517,50 @@ top: 0px;
   #member_tips_string{
   position: relative;
   left: auto;
+  }
+
+  .list-chickcon .list-othercon {
+    margin: 160px 0 0 0;
+  }
+  .list-othercon div:nth-child(2) {
+    width: 110px;
+    text-align: right;
+  }
+  .list-othercon .list-packaccount {
+    width: 100%;
+    text-align: left;
+  }
+  .list-chickcon .list-ordercon,.list-chickcon .list-ordercon {
+    width: 100%;
+    padding: 10px 0 0 0px;
+  }
+  .list-othercon .list-transcost {
+    margin: 0 !important;
+    position: relative;
+    top: 0;
+    right: 0;
+    float: right;
+  }
+  .list-othercon div:nth-child(3), .list-othercon div:nth-child(4) {
+    margin-top: 0px;
+    width: 80px;
+  }
+  .list-chickcon .list-realcon {
+    width: 100%;
+    float: left;
+    margin: 10px 0;
+    border-top: 1px solid #000;
+    padding: 10px 0 0 10px;
+    position: relative;
+  }
+  .list-chickcon .list-realcon .list-realcost {
+    position: relative;
+    top: 0px;
+    float: right;
+    right: 10px;
+    font-size: 0.875rem;
+    margin-right: 0;
+    text-align: right;
+    width: 110px;
   }
 }
