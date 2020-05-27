@@ -210,10 +210,19 @@ top: 0px;
 }
 .member_value{
   float: left;
-  width: 90px;
+  width: 120px;
   border:1px solid #6a5e52;
   padding-right: 10px;
   text-align: right;
+}
+.member_value input{
+  text-align: right;
+  width: 118px;
+  color: #6a5e52;
+  letter-spacing: 1px;
+}
+.member_value ::placeholder{
+  /*color: #6a5e52;*/
 }
 .member_item{
   float: left;
@@ -241,7 +250,7 @@ top: 0px;
 }
 #member_tips_string{
   position: relative;
-  left: -185px;
+  left: -215px;
 }
 @media screen and (max-width: 768px){
   .tips p {
@@ -574,5 +583,8 @@ top: 0px;
   }
   .list-totalcon .list-totalcost {
     top: 24px;
+  }
+  .member_value ::placeholder{
+  /*color: #6a5e52;*/
   }
 }
