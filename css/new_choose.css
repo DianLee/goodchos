@@ -222,7 +222,7 @@ top: 0px;
   letter-spacing: 1px;
 }
 .member_value ::placeholder{
-  /*color: #6a5e52;*/
+  color: #6a5e52;
 }
 .member_item{
   float: left;
@@ -585,6 +585,6 @@ top: 0px;
     top: 24px;
   }
   .member_value ::placeholder{
-  /*color: #6a5e52;*/
+  color: #6a5e52;
   }
 }
