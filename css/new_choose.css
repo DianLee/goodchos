@@ -626,4 +626,32 @@ top: 0px;
   .member_value ::placeholder{
   color: #6a5e52;
   }
+  .list-input_result {
+    width: 276px;
+    float: left;
+    position: relative;
+    bottom: 28px;
+    left: 71px;
+    border: 2px solid #AC874B;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 70px;
+    display: none;
+  }
+  .member_point_result {
+    float: left;
+    line-height: 34px;
+    width: 274px;
+    position: relative;
+    top: -30px;
+    left: 72px;
+    border: 2px solid #6a5e52;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 72px;
+    font-size: 100%;
+  }
 }
