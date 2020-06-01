@@ -976,9 +976,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				   <input name="uid" placeholder="請輸入手機號碼" type="tel" maxlength="10">
 				   <input name="coupon" placeholder="請輸入票券號碼" type="text" maxlength="8">
 				 </div>
-				 <div class="list-input_result" id="">
-				   <p>優惠券輸入成功!</p>
-				   <P>請確認您的訂購資訊與結帳金額， 您可於結帳前隨時點選取消使用。</P>
+				 <div class="list-input_result"  id="in_coupon_result">
+				   <span>優惠券輸入成功！</span>
+				   <P>請確認您的訂購資訊與結帳金額， 您可於結帳前隨時點選取消使用。</span>
 				 </div>
 				 <div class=button_align_center>
 				 	<button type="button" id="coupon_comfirm_btn"><h1 id="coupon_comfirm_string">確認</h1></button>
@@ -998,7 +998,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	     	</div>
 		    <div class="frm_area">
 		        <form method="post" action="https://www.goodchos.com.tw/shopping/coupon" id="frm_member" style="">
-					 <div class="member_point">
+					 <div class="member_point" id="member_point">
 						 <div class="member">
 						 	<div class="member_item">
 						 		您的會員點數
@@ -1015,6 +1015,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						 		<input name="uid" placeholder="請輸入點數" type="tel" maxlength="10">
 						 	</div>
 						 </div>
+					 </div>
+					 <div class="member_point_result" id="member_point_result">
+					   <span  >會員點數折抵成功！</span >
+					   <P>請確認您的訂購資訊與結帳金額， 您可於結帳前隨時點選取消使用。</P>
 					 </div>
 					 <div class="button_align_center">
 						 <button type="button" id="member_comfirm_btn"><h1 id="member_comfirm_string">確認</h1></button>
@@ -1148,18 +1152,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 		$("#coupon_comfirm_btn").click(function(){
 			var str = document.getElementById('coupon_comfirm_string').innerHTML;
-			var input = document.getElementById('list-input');
-			var result = document.getElementById('list-input_result');
+			var btn = document.getElementById('coupon_comfirm_string');
+			var input = document.getElementById('in_coupon');
+			var result = document.getElementById('in_coupon_result');
 			var str_tips = document.getElementById('coupon_tips_string').innerHTML;
-			var res = str.replace("確認", "使用取消");
-			var res_tips = str_tips.replace("*票券號碼區分大小寫，輸入完成後請按確認鍵", "*請注意!活動券一經使用無法再次使用及復原");
 
-			if (input.style.display === 'block') {
-			    input.style.display = 'none';
-				result.style.display = 'block';			    
-			  } else {
+			if (input.style.display === 'none') {
 			    input.style.display = 'block';
-			    result.style.display = 'none';
+				result.style.display = 'none';
+				btn.style.cssText = 'top:-3px;';
+				var res = str.replace("使用取消", "確認");
+				var res_tips = str_tips.replace("*請注意!活動券一經使用無法再次使用及復原", "*票券號碼區分大小寫，輸入完成後請按確認鍵");
+				document.getElementById("coupon_comfirm_string").innerHTML = res;
+				document.getElementById("coupon_tips_string").innerHTML = res_tips;			    
+			  } else {
+			    input.style.display = 'none';
+			    result.style.display = 'block';
+			    btn.style.cssText = 'top:-15px;';	
+			    var res = str.replace("確認", "使用取消");
+				var res_tips = str_tips.replace("*票券號碼區分大小寫，輸入完成後請按確認鍵", "*請注意!活動券一經使用無法再次使用及復原");
 			    document.getElementById("coupon_comfirm_string").innerHTML = res;
 				document.getElementById("coupon_tips_string").innerHTML = res_tips;
 				}
@@ -1168,13 +1179,28 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 		$("#member_comfirm_btn").click(function(){
 			var str = document.getElementById('member_comfirm_string').innerHTML;
-
+			var btn = document.getElementById('member_comfirm_string');
 			var str_tips = document.getElementById('member_tips_string').innerHTML;
+			var input = document.getElementById('member_point');
+			var result = document.getElementById('member_point_result');
 
-			var res = str.replace("確認", "取消");
-			var res_tips = str_tips.replace("*會員點數1點可折抵1元，輸入完成後請按確認鍵", "*請注意!會員點數一經使用無法再次使用及復原");
+			if (input.style.display === 'none') {
+				input.style.display = 'block';
+				result.style.display = 'none';
+				btn.style.cssText = 'top:-3px;';
+			var res = str.replace("使用取消", "確認");
+			var res_tips = str_tips.replace("*請注意!會員點數一經使用無法再次使用及復原", "*會員點數1點可折抵1元，輸入完成後請按確認鍵");
 			document.getElementById("member_comfirm_string").innerHTML = res;
 			document.getElementById("member_tips_string").innerHTML = res_tips;
+			} else {
+				input.style.display = 'none';
+			    result.style.display = 'block';
+			    btn.style.cssText = 'top:-15px;';	
+			    var res = str.replace("確認", "使用取消");
+				var res_tips = str_tips.replace("*會員點數1點可折抵1元，輸入完成後請按確認鍵", "*請注意!會員點數一經使用無法再次使用及復原");
+			    document.getElementById("member_comfirm_string").innerHTML = res;
+				document.getElementById("member_tips_string").innerHTML = res_tips;
+			}
 		});
 
 		if ($("#cartbox").size() > 0) {
