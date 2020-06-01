@@ -255,7 +255,8 @@ top: 0px;
 .list-input_result{
   width: 240px;
   float: left; 
-  position: relative; 
+  position: relative;
+  line-height: 34px; 
   bottom: 50px; 
   left: 30px; 
   border: 2px solid #AC874B; 
@@ -277,18 +278,23 @@ top: 0px;
     height: 72px;
     font-size: 100%;
 }
-.list-input_result p{
+.list-input_result p, .list-input_result span{
     line-height: 1.2;
-    padding: 6px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     margin: 0px 5px;
     color: #AC874B;
 }
-
-.member_point_result p{
+.list-input_result span{
+    font-weight: bolder;
+}
+.member_point_result p, .member_point_result span{
     line-height: 1.2;
-    padding: 6px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     margin: 0px 5px;
     color: #6a5e52;
+}
+.member_point_result span{
+  font-weight: bolder;
 }
 @media screen and (max-width: 768px){
   .tips p {
@@ -638,22 +644,31 @@ top: 0px;
     border-radius: 5px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    height: 70px;
     display: none;
+    height: 90px;
+    font-size: 100%;
+    padding: 10px 0 0 0;
   }
   .member_point_result {
     float: none;
-    line-height: 34px;
+    line-height: normal;
     width: 274px;
     position: relative;
     top: -30px;
-    margin: 0 auto;
+    margin: 0px auto;
     left: auto;
     border: 2px solid #6a5e52;
     border-radius: 5px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    height: 72px;
+    height: 90px;
     font-size: 100%;
+    padding: 10px 0 0 0;
   }
+  .member_point_result span, .list-input_result span {
+    font-weight: bolder;
+    line-height: 2;
+    font-size: 120%;
+  }
+
 }
