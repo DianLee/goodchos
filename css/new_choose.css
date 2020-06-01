@@ -628,10 +628,11 @@ top: 0px;
   }
   .list-input_result {
     width: 276px;
-    float: left;
+    float: none;
     position: relative;
     bottom: 28px;
-    left: 71px;
+    margin: 0 auto;
+    left: auto;
     border: 2px solid #AC874B;
     -webkit-border-radius: 5px;
     border-radius: 5px;
@@ -641,12 +642,13 @@ top: 0px;
     display: none;
   }
   .member_point_result {
-    float: left;
+    float: none;
     line-height: 34px;
     width: 274px;
     position: relative;
     top: -30px;
-    left: 72px;
+    margin: 0 auto;
+    left: auto;
     border: 2px solid #6a5e52;
     border-radius: 5px;
     border-bottom-left-radius: 0px;
