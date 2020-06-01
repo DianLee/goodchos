@@ -288,9 +288,7 @@ top: 0px;
 
     font-size: 0.85rem;
 }
-.list-input_result span{
-    font-weight: bolder;
-}
+
 .member_point_result p, .member_point_result span{
     line-height: 1.2;
     padding: 0px 0px 0px 0px;
@@ -298,8 +296,13 @@ top: 0px;
     color: #6a5e52;
     font-size: 0.85rem;
 }
-.member_point_result span{
-  font-weight: bolder;
+.member_point_result p, .list-input_result p{
+  position: relative;
+  top: -3px;
+}
+.list-input_result span, .member_point_result span{
+    font-weight: bolder;
+    font-size: 1rem;
 }
 .result_wrong span{
   color:red;
