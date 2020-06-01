@@ -296,6 +296,9 @@ top: 0px;
 .member_point_result span{
   font-weight: bolder;
 }
+.result_wrong {
+  color:red;
+}
 @media screen and (max-width: 768px){
   .tips p {
     float: none;
